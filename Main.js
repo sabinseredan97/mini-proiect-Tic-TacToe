@@ -17,7 +17,6 @@ function startGame() {
     boardState = ["", "", "", "", "", "", "", "", ""];
     circleTurn = false;
     boxElements.forEach(box => {
-        console.log(box);
         box.classList.remove(xClass);
         box.classList.remove(circleClass);
         box.removeEventListener('click', handleClick);
