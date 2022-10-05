@@ -111,7 +111,7 @@ function endGame(draw) {
     } else if (circleTurn) {
         document.getElementById("display-winning-message").innerHTML = "O player WINS!";
     } else {
-        document.getElementById("display-winning-message").innerHTML = "X players WINS!";
+        document.getElementById("display-winning-message").innerHTML = "X player WINS!";
     }
     document.getElementById("winningMessage").classList.add("show");
 }
