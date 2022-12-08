@@ -48,7 +48,6 @@ function handleClick(event) {
 function placeMark(box, currentClass) {
     box.classList.add(currentClass);
     boardEkement = document.querySelector(".box x");
-    
     for (let i = 0; i < boxElements.length; ++i) {
         if (boxElements[i].classList.contains(currentClass)) {
             boardState[i] = currentClass;
